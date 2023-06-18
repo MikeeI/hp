@@ -29,8 +29,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Generate artifact
         run: |
-          git config --global user.email "heissepreise-pages@gmail.com"
-          git config --global user.name "heissepreise-pages"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Action-Bot"
           date
           ./pages.sh
       - name: Upload artifact
